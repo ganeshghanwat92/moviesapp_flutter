@@ -129,6 +129,7 @@ class _TVShowHomePageState extends State<TVShowHomePage> {
               controller: _searchTVShowTextController,
             ),*/
             child: TextField(
+              textInputAction: TextInputAction.search,
               style: TextStyle(
                 fontSize: 12,
               ),

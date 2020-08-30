@@ -55,6 +55,7 @@ class _SearchAllHomePageState extends State<SearchAllHomePage> {
                   children: <Widget>[
                     Flexible(
                       child: TextField(
+                        textInputAction: TextInputAction.search,
                         style: TextStyle(
                           fontSize: 12,
                         ),

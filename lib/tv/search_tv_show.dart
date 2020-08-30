@@ -61,6 +61,7 @@ class _SearchTVShowState extends State<SearchTVShow> {
                     ),*/
 
                     child: TextField(
+                      textInputAction: TextInputAction.search,
                       style: TextStyle(
                         fontSize: 12,
                       ),

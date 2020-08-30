@@ -62,6 +62,7 @@ class _SearchMovieState extends State<SearchMovie> {
                       controller: movieSearchTextController,
                     ),*/
                     child: TextField(
+                      textInputAction: TextInputAction.search,
                       style: TextStyle(
                         fontSize: 12,
                       ),
